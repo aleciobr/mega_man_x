@@ -1,0 +1,22 @@
+#page-landing {
+  background: linear-gradient(329.54deg, #2fd2f3 0%, #4982b1 90%);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+#container {
+  margin: auto;
+  width: min(90%, 112rem);
+}
+
+#megaman{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 760px) {
+  #megaman {
+    padding: 50rem 26rem;
+    background: url('../images/megaman.png') no-repeat 80% /
+      clamp(30rem, 54vw, 56rem);
+  }
